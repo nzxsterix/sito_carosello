@@ -1,0 +1,34 @@
+body { 
+    padding-top: 56px; 
+} 
+
+
+.carousel-item {
+    height: 32rem; 
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#live-chat-btn {
+    
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050; 
+    font-size: 1.5rem;
+    line-height: 1; 
+    padding: 1rem 1.2rem; 
+}
